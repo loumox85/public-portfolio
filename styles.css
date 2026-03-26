@@ -239,7 +239,7 @@ section{
 
 .grille{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
     gap: 32px;
 }
 
@@ -278,7 +278,8 @@ section{
 /* --- Animation spécifique pour les cartes de projet --- */
 .grille .card {
     width: auto;
-    aspect-ratio: 1;
+    aspect-ratio: 1.5;
+    justify-content: flex-start;
     transform: translateY(50px) scale(0.95); /* Partent d'un peu plus bas et légèrement plus petites */
     filter: blur(4px);
     /* La transition est plus rapide et adaptée à l'effet */
