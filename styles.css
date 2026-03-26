@@ -278,7 +278,7 @@ section{
 /* --- Animation spécifique pour les cartes de projet --- */
 .grille .card {
     width: auto;
-    height: 300px;
+    min-height: 350px;
     justify-content: flex-start;
     transform: translateY(50px) scale(0.95); /* Partent d'un peu plus bas et légèrement plus petites */
     filter: blur(4px);
