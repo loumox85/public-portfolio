@@ -340,7 +340,9 @@ section{
 
 .icon-container img {
     width: 64px;
-    height: 64px;
+    height: auto;
+    max-height: 64px;
+    object-fit: contain;
 }
 
 /* ----------------- 10) Utilities (color variants) ----------------- */
